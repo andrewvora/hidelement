@@ -4,7 +4,25 @@ Browser extensions for hiding stuff on web pages.
 
 ## Installation
 
-### Firefox
+### Firefox - Production
+
+#### Step 1
+
+Make sure your `manifest.json` includes this block somewhere.
+
+```json
+"browser_specific_settings": {
+  "gecko": {
+    "id": "youremail@gmail.com"
+  }
+}
+```
+
+#### Step 2
+
+Publish to AOM.
+
+### Firefox - Nightly / Developer Builds
 
 #### Step 1
 
@@ -46,6 +64,8 @@ Choose the ZIP file you created earlier.
 #### Step 5
 
 Turn back on signature checks to avoid getting clowned on.
+
+<p/>
 
 ### Chrome
 
