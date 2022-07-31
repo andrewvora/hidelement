@@ -22,6 +22,8 @@ Make sure your `manifest.json` includes this block somewhere.
 
 Publish to AOM.
 
+-----
+
 ### Firefox - Nightly / Developer Builds
 
 #### Step 1
@@ -66,6 +68,8 @@ Choose the ZIP file you created earlier.
 Turn back on signature checks to avoid getting clowned on.
 
 <p/>
+
+------
 
 ### Chrome
 
