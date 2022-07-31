@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Hidelement",
+    "version": "0.1.0",
+    "description": "Hides elements on a web page.",
+    "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.live.com/*"],
+        "js": ["hidelement.js"]
+      }
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "andrewvora.hidelements@outlook.com"
+      }
+    }
+}
